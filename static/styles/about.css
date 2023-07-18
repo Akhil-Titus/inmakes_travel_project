@@ -866,13 +866,19 @@ section
 	width: 100%;
 	background: #FFFFFF;
 }
+.why_item_fixed {
+  height: 600px; /* Adjust the height value as needed */
+}
+
 .why_image
 {
 	width: 100%;
 }
 .why_image img
 {
-	max-width: 100%;
+	 max-width: 100%;
+	/* width: 100px;  Adjust the width value as needed */
+    height: 200px;
 }
 .why_content
 {
@@ -881,18 +887,22 @@ section
 	padding-left: 35px;
 	padding-right: 35px;
 }
-.why_title
-{
-	font-family: 'Oswald', sans-serif;
-	font-size: 30px;
-	font-weight: 500;
-	color: #181818;
-	line-height: 1.1;
+.why_title {
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  color: #181818;
+  line-height: 1.1;
+  height: 70px;
+  overflow: hidden;
 }
-.why_text
-{
-	margin-top: 20px;
+
+.why_text {
+  margin-top: 20px;
+  height: 250px;
+  overflow: hidden;
 }
+
 .why_icon
 {
 	position: absolute;

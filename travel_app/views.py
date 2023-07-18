@@ -3,6 +3,7 @@ from django.http import HttpResponse
 from . models import Place, Team
 # Create your views here.
 
+
 #Linking HTML to variables via ginger variable (passing value)
 def home(request):
     obj1 = Place.objects.all()
